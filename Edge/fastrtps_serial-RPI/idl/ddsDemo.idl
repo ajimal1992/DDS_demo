@@ -1,0 +1,48 @@
+struct LamppostsCtrl{
+@Key string clusterID;
+boolean value;	
+};
+
+struct LamppostsBC{
+@Key string clusterID;
+boolean value;	
+};
+
+struct Trafficlight{
+@Key string ID;
+char state;
+};
+
+struct Priority{
+@Key string ID;
+};
+
+struct Humidity{
+@Key string sensor_id;
+float sensor_val;
+};
+
+struct Temperature{
+@Key string sensor_id;
+float sensor_val;
+};
+
+struct Light{
+@Key string sensor_id;
+char sensor_val;
+};
+
+struct Speeding{
+@Key string sensor_id;
+boolean sensor_val;
+};
+
+struct GeoLocation{
+@Key string sensor_id;
+char sensor_val;
+};
+
+struct Carpark{
+@Key string sensor_id;
+boolean sensor_val;
+};
